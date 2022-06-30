@@ -21,6 +21,7 @@ public class Exercise04Controller {
 		if(bindingResult.hasErrors()) {
 			return "bookForm";
 		}
-		return "bookRegister";		
+		return "bookRegister";	
+		//コメントしておきます
 	}
 }
